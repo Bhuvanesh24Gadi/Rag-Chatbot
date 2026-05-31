@@ -7,7 +7,7 @@ from langchain_community.vectorstores import Chroma
 from langchain_classic.chains import RetrievalQA
 
 
-os.environ["GOOGLE_API_KEY"] = "U"
+os.environ["GOOGLE_API_KEY"] = "your api key"
 
 def create_gemini_rag():
     print("🤖 Initializing Gemini RAG Chatbot...")
